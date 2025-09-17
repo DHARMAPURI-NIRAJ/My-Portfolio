@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | DHARMAPURI NIRAJ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style>
+    body {
+      min-height: 100vh;
+      background: linear-gradient(120deg, #f3df92 0%, #ff9900 50%, #ff5500 100%);
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      z-index: 100;
+      background: #fff;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+      padding: 1.2rem 0;
+    }
+
+    .container {
+      background-color: rgb(173, 240, 240);
+      margin-top: 90px;
+      
+    }
+
+    @media (max-width: 700px) {
+      .navbar {
+        padding: 0.7rem 0;
+      }
+
+      .container {
+        margin-top: 70px;
+      }
+    }
+
+    .navbar-title {
+      margin-left: 0;
+      margin-right: 32px;
+      margin-top: 0;
+      margin-bottom: 0;
+     
+    }
+
+    .projects-title {
+      text-align: left;
+      margin-left: 8px;
+      margin-top: 0;
+      margin-bottom: 5rem;
+      color: #ff5500;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 700px) {
+      .projects-title {
+        margin-left: 0.5rem;
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div style="max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:flex-start;padding:0 24px;">
+      <h2 class="navbar-title" style="color:#ff5500;margin:0;font-size:1.5rem;flex-shrink:0;"> 🎓. DHARMAPURI NIRAJ</h2>
+      <ul style="display:flex;gap:2.5rem;list-style:none;margin:0 0 0 48px;padding:0;">
+        <li><a href="responsive_landing_page.html" style="text-decoration:none;color:#333;font-weight:500;">Home</a>
+        </li>
+        <li><a href="responsive_landing_page.html#about" style="text-decoration:none;color:#333;font-weight:500;">About</a>
+        </li>
+        <li><a href="responsive_landing_page.html#contact" style="text-decoration:none;color:#333;font-weight:500;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="projects-section">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+          <a href="https://your-portfolio-demo-link.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>Weather forecast app using OpenWeatherMap API and modern UI design.</p>
+          <a href="https://weather-app-xo48.onrender.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <p>Simple task manager to add, edit, and delete tasks. Built with React.</p>
+          <a href="https://your-task-manager-demo-link.com" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Fraud Detection in Banking Transactions using Machine Learning.</h3>
+          <p>The existing system for "Fraud Detection in Banking Transactions Using Machine Learning" incorporates a comprehensive approach to mitigating financial fraud within the banking sector. Initially, historical transaction data is collected, encompassing a diverse range of transactions, and undergoes rigorous preprocessing to handle missing data, address imbalances, and normalize features. </p>
+          <a href="https://github.com/DHARMAPURI-NIRAJ/FRAUD-DETECTION-IN-BANKING-TRANSACTION.git" target="_blank">View Project</a>
+        </div>
+        <button onclick="window.location.href='/responsive_landing_page.html'" style="padding: 15px; margin: 0;  justify-content: center; display: flex; margin: 0; position: absolute; top: 20px; left: 8%; top: 90%; border-radius: 25px; font-size: 20px; background-color: #3e8e41; box-shadow: 0 5px #074e02; transform: translateY(4px); " class="contact-button">Back to Home</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
